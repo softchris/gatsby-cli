@@ -1,0 +1,27 @@
+{
+  "name": "gatsby-scaffolder",
+  "bin": {
+    "gtsf": "./src/index.js"
+  },
+  "version": "1.0.0",
+  "description": "A command line tool that helps you scaffold various parts that you might need when developing for the Gatsby framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gatsby",
+    "command line",
+    "scaffold",
+    "react", 
+    "javascript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "commander": "^5.1.0",
+    "figlet": "^1.4.0",
+    "fs-extra": "^9.0.0"
+  }
+}
