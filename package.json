@@ -16,8 +16,20 @@
     "react", 
     "javascript"
   ],
-  "author": "",
-  "license": "MIT",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/softchris/gatsby-cli.git"
+  },
+  "homepage": "https://github.com/softchris/gatsby-cli",
+  "bugs": { "url": "https://github.com/softchris/gatsby-cli/issues" },
+  "author": "Chris Noring (https://softchris.github.io)",
+  "contributors": [
+    {
+      "name": "chris noring",
+      "url" : "https://softchris.github.io"
+    }
+  ],
+  "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
     "chalk": "^4.0.0",
     "commander": "^5.1.0",
