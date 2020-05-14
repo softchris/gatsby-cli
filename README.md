@@ -1,4 +1,6 @@
-A command line tool that scaffolds different files and projects when working with gatsby.
+A command line tool that scaffolds different files and projects when working with Gatsby.
+
+![Demo of command line tool](gatsby-scaffolder.gif)
 
 ## Install
 
@@ -19,7 +21,7 @@ Or run it with NPX, like so:
 
 ## Commands
 
-NOTE, the commands `component` and `page` assume there is an existing Gatsby project scaffolded already. (Thereby existing directories `components/` and `pages/`). The `plugin` command assumes you are standing in an empty directory when running it.
+NOTE, the commands `component` and `page` assume there is an existing Gatsby project scaffolded already. (Thereby existing directories `src/components/` and `src/pages/`). The `plugin` command assumes you are standing in an empty directory when running it.
 
 The following commands are supported
 
