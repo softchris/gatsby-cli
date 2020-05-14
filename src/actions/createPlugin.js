@@ -8,7 +8,7 @@ module.exports = (type) => {
     return;
   }
   const fromPath = path.join(__dirname, '../', 'templates/', `plugin-${type}`);
-  const toPath = path.join(process.cwd(), 'test');
+  const toPath = path.join(process.cwd());
   fsExtra.copySync(fromPath, toPath);
   success(`successfully scaffolded a "${type}" plugin project`)
 }

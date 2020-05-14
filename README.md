@@ -19,6 +19,8 @@ Or run it with NPX, like so:
 
 ## Commands
 
+NOTE, the commands `component` and `page` assume there is an existing Gatsby project scaffolded already. (Thereby existing directories `components/` and `pages/`). The `plugin` command assumes you are standing in an empty directory when running it.
+
 The following commands are supported
 
 - `component`
@@ -60,7 +62,7 @@ The following commands are supported
     ```
 
     This creates scaffolds out a new source plugin. This includes `package.json` and `gatsby-node.js`.
-- `plugin transformer`
+- `plugin transform`
 
   ```
   npx gtsf plugin <type>
@@ -69,7 +71,7 @@ The following commands are supported
   example
 
   ```
-  npx gtsf plugin transformer
+  npx gtsf plugin transform
   ```
 
   This scaffolds out a new transformer plugin. This includes `package.json`, `gatsby-node.js`, `parseContent.js` and a test directory.
