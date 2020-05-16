@@ -1,6 +1,6 @@
 A command line tool that scaffolds different files and projects when working with Gatsby.
 
-![Demo of command line tool](gatsby-scaffolder.gif)
+![Demo of command line tool](gatsby-cli.png)
 
 ## Install
 
