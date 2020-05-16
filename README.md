@@ -1,3 +1,6 @@
+[![npm version](https://badge.fury.io/js/gatsby-scaffolder.svg)](https://www.npmjs.com/package/gatsby-scaffolder)
+[![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?color=blue&style=flat-square)](http://opensource.org/licenses/MIT)
+
 A command line tool that scaffolds different files and projects when working with Gatsby.
 
 ![Demo of command line tool](gatsby-cli.png)
