@@ -3,12 +3,21 @@
   "bin": {
     "gtsf": "./src/index.js"
   },
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A command line tool that helps you scaffold various parts that you might need when developing for the Gatsby framework",
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:watch": "jest --watchAll"
+    "test:watch": "jest --watchAll",
+    "premake-badge": "$(npm bin)/jest --coverage",
+    "make-badge": "$(npm bin)/coverage-badges"
+  },
+  "jest": {
+    "coverageReporters": [
+      "text",
+      "lcov",
+      "json-summary"
+    ]
   },
   "keywords": [
     "gatsby",
@@ -41,6 +50,7 @@
     "fs-extra": "^9.0.0"
   },
   "devDependencies": {
+    "coverage-badges": "^1.0.4",
     "jest": "^26.0.1"
   }
 }

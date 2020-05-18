@@ -1,3 +1,4 @@
+![Coverage](./badges/coverage.svg)
 [![npm version](https://badge.fury.io/js/gatsby-scaffolder.svg)](https://www.npmjs.com/package/gatsby-scaffolder)
 [![npm downloads](https://img.shields.io/npm/dm/gatsby-scaffolder?color=blue&label=npm%20downloads&style=flat-square)](https://www.npmjs.com/package/gatsby-server)
 [![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?color=blue&style=flat-square)](http://opensource.org/licenses/MIT)
