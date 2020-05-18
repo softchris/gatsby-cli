@@ -3,31 +3,34 @@
   "bin": {
     "gtsf": "./src/index.js"
   },
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A command line tool that helps you scaffold various parts that you might need when developing for the Gatsby framework",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:watch": "jest --watchAll"
   },
   "keywords": [
     "gatsby",
     "command line",
     "scaffold",
-    "react", 
+    "react",
     "javascript",
     "cli"
   ],
   "repository": {
-      "type": "git",
-      "url": "https://github.com/softchris/gatsby-cli.git"
+    "type": "git",
+    "url": "https://github.com/softchris/gatsby-cli.git"
   },
   "homepage": "https://github.com/softchris/gatsby-cli",
-  "bugs": { "url": "https://github.com/softchris/gatsby-cli/issues" },
+  "bugs": {
+    "url": "https://github.com/softchris/gatsby-cli/issues"
+  },
   "author": "Chris Noring (https://softchris.github.io)",
   "contributors": [
     {
       "name": "chris noring",
-      "url" : "https://softchris.github.io"
+      "url": "https://softchris.github.io"
     }
   ],
   "license": "MIT",
@@ -36,5 +39,8 @@
     "commander": "^5.1.0",
     "figlet": "^1.4.0",
     "fs-extra": "^9.0.0"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
   }
 }
